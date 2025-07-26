@@ -1,199 +1,205 @@
-<script></script>
 <template>
-  <div class="container">
-    <section>
-      <div class="polo">
-        <div class="vizionare">
-          <div class="img-anime">
-            <img src="\public\poze\image 30 (5).png" />
-            <div class="favorite">
-              <svg
-                width="16"
-                height="20"
-                viewBox="0 0 16 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2.00977 0C0.914311 0 0.00976562 0.902599 0.00976562 1.99805L0 20L8 17L16 20V18.5566V2C16 0.906937 15.0931 0 14 0H2.00977ZM2.00977 2H14V17.1133L8 14.8633L2.00195 17.1133L2.00977 2Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-            <div class="rating">
-              <div class="star no-color">
+  <Layout>
+    <div class="container">
+      <section>
+        <div class="polo">
+          <div class="vizionare">
+            <div class="img-anime">
+              <img src="\public\poze\image 30 (5).png" />
+              <div class="favorite">
                 <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
+                  width="16"
+                  height="20"
+                  viewBox="0 0 16 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    d="M2.00977 0C0.914311 0 0.00976562 0.902599 0.00976562 1.99805L0 20L8 17L16 20V18.5566V2C16 0.906937 15.0931 0 14 0H2.00977ZM2.00977 2H14V17.1133L8 14.8633L2.00195 17.1133L2.00977 2Z"
+                    fill="white"
                   />
                 </svg>
               </div>
-              <div class="star color">
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
-                <svg
-                  width="56"
-                  height="55"
-                  viewBox="0 0 56 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
-                  />
-                </svg>
+              <div class="rating">
+                <div class="star no-color">
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                </div>
+                <div class="star color">
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                  <svg
+                    width="56"
+                    height="55"
+                    viewBox="0 0 56 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.015 0L34.5293 20.7295H55.6099L38.5553 33.541L45.0696 54.2705L28.015 41.459L10.9604 54.2705L17.4747 33.541L0.420095 20.7295H21.5007L28.015 0Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <button>Vizionare</button>
+          </div>
+          <div class="info">
+            <p>Episoade</p>
+            <p>1100</p>
+          </div>
+        </div>
+
+        <div class="info-anime">
+          <h1>One Piece</h1>
+          <p>
+            Luffy, un băiat cu corp elastic, pornește într-o călătorie plină de aventuri pentru a
+            descoperi comoara „One Piece” și a deveni Regele Piraților. În drumul său, își formează o
+            echipă loială și înfruntă inamici redutabili. Anime-ul impresionează prin construcția
+            lumii, umor, dramă și evoluția profundă a personajelor.
+          </p>
+          <br />
+          <hr />
+          <br />
+          <p class="com">Comentarii:</p>
+
+          <div class="comenatrii">
+            <div class="comment-content">
+              <img class="user-profile" src="/poze/image 44.jpg" />
+
+              <div class="comment-info">
+                <p class="username-text">@adkl7.789:</p>
+                <p class="comment-text">Un univers atât de vast încât simți că trăiești acolo.</p>
+              </div>
+            </div>
+            <div class="comment-content">
+              <img class="user-profile" src="/poze/image45.png" />
+
+              <div class="comment-info">
+                <p class="username-text">@animefannnn23:</p>
+                <p class="comment-text">Luffy e genul de erou care nu renunță niciodată.”</p>
               </div>
             </div>
           </div>
-          <button>Vizionare</button>
-        </div>
-        <div class="info">
-          <p>Episoade</p>
-          <p>1100</p>
-        </div>
-      </div>
 
-      <div class="info-anime">
-        <h1>One Piece</h1>
-        <p>
-          Luffy, un băiat cu corp elastic, pornește într-o călătorie plină de aventuri pentru a
-          descoperi comoara „One Piece” și a deveni Regele Piraților. În drumul său, își formează o
-          echipă loială și înfruntă inamici redutabili. Anime-ul impresionează prin construcția
-          lumii, umor, dramă și evoluția profundă a personajelor.
-        </p>
-        <br />
-        <hr />
-        <br />
-        <p class="com">Comentarii:</p>
-
-        <div class="comenatrii">
-          <div class="comment-content">
-            <img class="user-profile" src="/poze/image 44.jpg" />
-
-            <div class="comment-info">
-              <p class="username-text">@adkl7.789:</p>
-              <p class="comment-text">Un univers atât de vast încât simți că trăiești acolo.</p>
-            </div>
-          </div>
-          <div class="comment-content">
-            <img class="user-profile" src="/poze/image45.png" />
-
-            <div class="comment-info">
-              <p class="username-text">@animefannnn23:</p>
-              <p class="comment-text">Luffy e genul de erou care nu renunță niciodată.”</p>
+          <div class="comment">
+            <div class="comment2">
+              <img src="/poze/image 46.png" />
+              <img src="/poze/image 47.png" class="smile" />
+              <input
+                type="text"
+                name="comment"
+                placeholder="Adaugă un comentariu:"
+                class="comment-input"
+              />
+              <img src="/poze/image 45.png" />
             </div>
           </div>
         </div>
-
-        <div class="comment">
-          <div class="comment2">
-            <img src="/poze/image 46.png" />
-            <img src="/poze/image 47.png" class="smile" />
-            <input
-              type="text"
-              name="comment"
-              placeholder="Adaugă un comentariu:"
-              class="comment-input"
-            />
-            <img src="/poze/image 45.png" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
+  </Layout>
 </template>
+
+<script setup>
+import Layout from './Layout.vue'
+
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poetsen+One&display=swap');

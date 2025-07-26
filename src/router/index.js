@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
 import AnimeListPage from '@/views/AnimeListPage.vue'
-import Anime from '@/views/Anime.vue'
+import AnimeReview from '@/views/AnimeReview.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -12,12 +12,9 @@ const router = createRouter({
       component: AnimeListPage,
     },
     {
-      path: '/anime',
+      path: '/review',
       name: 'anime-page',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: Anime,
+      component: AnimeReview,
     },
   ],
 })
